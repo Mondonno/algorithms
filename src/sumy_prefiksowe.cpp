@@ -1,5 +1,6 @@
-// metoda w jaki sposob zapelnic
+// sumy prefiksowe czyli sumy na przedziale
 
+// metoda w jaki sposob zapelnic
 int* zapelnij(int n) {
    int sumy_prefiksowe[n];
    for(int i = 1; i <= n; i++) {
