@@ -13,6 +13,9 @@ List of currently implemented:
     - [x] NWD
     - [x] NWW
     - [x] The sieve of Eratosthenes
+    - [ ] Number of dividers
+    - [ ] Remembered factorial
+    - [ ] Permutations
 
 - **Trees**
     - [x] Range-Range Tree
