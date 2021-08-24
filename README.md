@@ -1,6 +1,14 @@
 ## Algorithms
 Popular algorithms, everyone (mostly everyone) known and some created on my own
 
+## How?
+
+- **Every algorithm** in sreperated file need to work sreperatly, without using sources from another.
+- **Every algorithm** is easy to cut and copy into your own code.
+- **Every algorithm** is supposed to be fast, not necessarily readable
+
+## Tasks
+
 List of currently implemented:
 
 - **Prefix sums**
