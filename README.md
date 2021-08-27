@@ -35,3 +35,6 @@ List of currently implemented:
     - [x] Merge sort
     - [x] Binary Search
     - [x] Bubble sort
+
+- **Graphs**
+    - [x] Dijkstra algorithm
