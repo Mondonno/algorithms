@@ -30,11 +30,19 @@ List of currently implemented:
     - [x] Point-to-Range Tree
     - [x] Range-to-Point Tree
 
+- **Graphs**
+    - [x] Dijkstra algorithm
+
+- **Sparses**
+    - [x] Range Minimum Queries
+    - [ ] Range Sum Queries (is simmilar to prefix sums)
+
 - **Other**
     - [x] Caterpillar algorithm
     - [x] Merge sort
     - [x] Binary Search
     - [x] Bubble sort
 
-- **Graphs**
-    - [x] Dijkstra algorithm
+### Credits
+
+Thanks for help from unknown authors on StackOverflow and [CpAlgorithms](https://cp-algorithms.com/)
