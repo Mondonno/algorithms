@@ -1,5 +1,5 @@
 const int BASE = 1 << 17;
-long long Tree[base << 1];
+long long Tree[BASE << 1];
 
 void aktualizuj(int v, long long wartosc) {
     Tree[v] = wartosc;
@@ -21,7 +21,7 @@ int wynik(int a, int b) {
           rezultat += Tree[a + 1];
        }
        if(b & 1) {
-          rezultat += Tree[b - 1]
+          rezultat += Tree[b - 1];
        }
     }
     return rezultat;

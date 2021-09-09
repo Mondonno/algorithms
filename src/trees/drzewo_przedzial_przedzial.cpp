@@ -37,7 +37,7 @@ long long query(int v, int a, int b, int p, int k) { // [p, k] -> podaj sumę pr
     if(b<p && k>a) {
         return 0;
     }else if(p<=a && b<=k) {
-        return Tree[v]
+        return Tree[v];
     }else {
         int l = v >> 1, r = (v >> 1) + 1, mid = (a+b) >> 1;
 

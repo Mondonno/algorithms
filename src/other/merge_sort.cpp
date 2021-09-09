@@ -1,3 +1,5 @@
+// algorytm nie kompletny wymaga poprawy skladniowej
+
 void MergeSort(int p, int q)
 {
     if (p==q)

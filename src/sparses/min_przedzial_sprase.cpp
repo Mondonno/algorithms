@@ -4,13 +4,15 @@
 #include <algorithm>
 #include <vector>
 
+using namespace std;
+
 const int MAXN = 1e9; // przykladowa wartosc
-const int K = 25; // przykladowa wartosc
+const int K = 25; // przykladowa wartosc K dla przedzialu <= 10^7 (dziesiec do potegi 7)
 
 int log[MAXN];
 int st[MAXN][K + 1];
 
-void wypelnij(int* array) {
+void wypelnij(int* array, int N) { // wypelnia 
     int log[MAXN+1];
     log[1] = 0;
     for (int i = 2; i <= MAXN; i++)

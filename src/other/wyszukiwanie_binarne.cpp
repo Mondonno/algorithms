@@ -21,7 +21,9 @@ int main()
     int koniec = n - 1;
     while (poczatek < koniec)
     {
-        int srodek = (poczatek + koniec + 1) / 2; // to jest dzielenie przez 2 z zaokrągleniem w górę
+        // to jest dzielenie przez 2 z zaokrągleniem w górę
+        // czyli ceil bez ceila, dla tych ktorzy nie sa zorientowani
+        int srodek = (poczatek + koniec + 1) / 2; 
         if (tablica[srodek] <= x)
             poczatek = srodek;
         else

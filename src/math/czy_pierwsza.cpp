@@ -1,3 +1,5 @@
+#include <cmath> // niepotrzebne ze wzgledu na ujeta w standardzie b. STL
+
 int sprawdz(int x) 
 {
   if(x == 1) return false;
