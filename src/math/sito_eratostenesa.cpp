@@ -5,6 +5,7 @@ int* sito(int n) {
 
    liczby_pierwsze[0] = 1;
    liczby_pierwsze[1] = 1;
+   
    for(int i = 2; i < n+1; i++) {
       if(liczby_pierwsze[i] == 1) continue;
       for(int j = i * i; j < n; i++) {

@@ -11,37 +11,37 @@ Popular algorithms, everyone (mostly everyone) known and some created on my own
 
 List of currently implemented:
 
-- **Prefix sums**
-    - [x] 2d sums
-    - [x] Normal sums
-    - [x] Sums on overlapping intervals
+- **Prefix sums** Answers: `O(1)`
+    - [x] 2d sums `O(n * m)`
+    - [x] Normal sums `O(n)`
+    - [x] Sums on overlapping intervals `O(n)`
 
 - **Math**
-    - [x] Is a prime number
-    - [x] NWD
-    - [x] NWW
-    - [x] The sieve of Eratosthenes
+    - [x] Is a prime number `O(sqrt2(n))`
+    - [x] NWD `O(log2(max(n, k)))`
+    - [x] NWW `O(log2(max(n, k)))`
+    - [x] The sieve of Eratosthenes `O(n log2(log2(n)))`
     - [ ] Number of dividers
     - [ ] Remembered factorial
     - [ ] Permutations
 
-- **Trees**
+- **Trees** `O(log2(n))`
     - [x] Range-Range Tree
     - [x] Point-to-Range Tree
     - [x] Range-to-Point Tree
 
 - **Graphs**
-    - [x] Dijkstra algorithm
+    - [x] Dijkstra algorithm `O(m log2(n))`
 
 - **Sparses**
-    - [x] Range Minimum Queries
+    - [x] Range Minimum Queries `O(n log n)` `O(1)`
     - [ ] Range Sum Queries (is simmilar to prefix sums)
 
 - **Other**
-    - [x] Caterpillar algorithm
-    - [x] Merge sort
-    - [x] Binary Search
-    - [x] Bubble sort
+    - [x] Caterpillar algorithm `O(2 * n)`
+    - [x] Merge sort `O(n log n)`
+    - [x] Binary Search `O(log2(n))`
+    - [x] Bubble sort `O(n^2)`
 
 ### Credits
 
