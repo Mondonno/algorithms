@@ -1,4 +1,6 @@
-int gasienica(int* A, int n, int K)
+#include <vector>
+
+int gasienica(vector<int> A, int n, int K)
 {
     int licznik = 0; // tu będziemy zliczać fragmenty o sumie K
     int suma = A[0];
