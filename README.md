@@ -7,6 +7,8 @@ Popular algorithms, mostly everyone known and some created on my own
 - **Every algorithm** is easy to cut and copy into your own code.
 - **Every algorithm** is supposed to be fast, not necessarily readable
 
+**Note**: Usefull for creating memory-efficent algorithms are sizes of each types in C++, there are listed in [sizes file](./SIZES.md)
+
 ## Tasks
 
 List of currently implemented:
