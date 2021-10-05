@@ -1,3 +1,5 @@
+#include <vector>
+
 // UWAGA!!! UWAGA!!! UWAGA!!!
 // WOLNIEJSZE NIZ SUMY PREFIKSOWE
 // to rozwiązane na branie sumy z przedizalu dziala kilkukrotnie dluzej od sum prefiksowych ktore dzialaja w czasie O(1)
@@ -8,7 +10,7 @@ const int K = 25; // przykladowa wartosc K dla przedzialu <= 10^7 (dziesiec do p
 
 long long st[MAXN][K + 1];
 
-int wypelnij(int* array, int N) {
+int wypelnij(std::vector<int> array, int N) {
     for (int i = 0; i < N; i++)
         st[i][0] = array[i];
 

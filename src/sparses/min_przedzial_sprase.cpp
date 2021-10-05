@@ -12,7 +12,7 @@ const int K = 25; // przykladowa wartosc K dla przedzialu <= 10^7 (dziesiec do p
 int log[MAXN];
 int st[MAXN][K + 1];
 
-void wypelnij(int* array, int N) { // wypelnia 
+void wypelnij(vector<int> array, int N) { // wypelnia 
     int log[MAXN+1];
     log[1] = 0;
     for (int i = 2; i <= MAXN; i++)
