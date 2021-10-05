@@ -32,6 +32,13 @@ List of currently implemented:
 
 - **Graphs**
     - [x] Dijkstra algorithm `O(m log2(n))`
+    <!-- N is count of rows | M is count of columns (or revertable)  -->
+    - [x] BFS for:
+        - Graph `O(n+m)`
+        - Grid `O(n*m)`
+    - [x] DFS for:
+        - Graph: `O(n+m)`
+        - Grid `O(n*m)`
 
 - **Sparses**
     - [x] Range Minimum Queries `O(n log n)` `O(1)`
