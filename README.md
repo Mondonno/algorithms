@@ -1,5 +1,5 @@
 ## Algorithms
-Popular algorithms, everyone (mostly everyone) known and some created on my own
+Popular algorithms, mostly everyone known and some created on my own
 
 ## How?
 
