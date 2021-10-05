@@ -20,7 +20,7 @@ Calculated to **BYTES** (1024 bytes = 1 kilobyte (kb))
 | long          | 4             | 4
 | long long     | 8             | 8
 
-#### Calculation of the types
+### Calculation of the types
 
 **8 bits** `=` 1 byte<br>
 **1024 bytes** `=` 1 kilobyte (kb)<br>
