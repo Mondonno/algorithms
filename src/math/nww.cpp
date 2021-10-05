@@ -1,3 +1,5 @@
+// podstawowy algorytm euklidesa
+
 int nww(int a, int b)
 {
     int x = 0;

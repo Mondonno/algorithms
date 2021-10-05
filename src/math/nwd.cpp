@@ -1,3 +1,5 @@
+// podstawowy algorytm euklidesa
+
 int nwd(int a, int b) {
    int x = 0;
    while(a != 0) {
