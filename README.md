@@ -18,8 +18,9 @@ List of currently implemented:
 
 - **Math**
     - [x] Is a prime number `O(sqrt2(n))`
-    - [x] NWD `O(log2(max(n, k)))`
-    - [x] NWW `O(log2(max(n, k)))`
+    - [x] Euklides NWD `O(log2(max(n, k)))`
+    - [x] Euklides NWW `O(log2(max(n, k)))`
+    - [x] Advenced euklides `O(log2(max(n, k)))`
     - [x] The sieve of Eratosthenes `O(n log2(log2(n)))`
     - [ ] Number of dividers
     - [ ] Remembered factorial
