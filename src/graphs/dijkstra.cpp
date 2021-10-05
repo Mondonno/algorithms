@@ -19,9 +19,12 @@ vector<int> dijkstra(vector<pair<int, long long>> graf, int wielkoscGrafu) {
       if(odwiedzone[topElement]) continue;
 
       odwiedzone[topElement] = true;
+
+      // editor bugs again?
+      // need some bindings?
       for(auto i : graf[topElement]) {
          if(odleglosci[i.first] > odleglosci[topElement] + i.second) {
-            odleglosci[i.first] = odleglosci[w] + i.second;
+            odleglosci[i.first] = odleglosci[topElement] + i.second;
 	         kolejka.push(make_pair(-odleglosci[i.first], i.first));
          }
       }

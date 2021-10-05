@@ -1,4 +1,6 @@
-#include <cmath> // niepotrzebne ze wzgledu na ujeta w standardzie b. STL
+#include <cmath>
+
+using namespace std;
 
 int sprawdz(int x) 
 {

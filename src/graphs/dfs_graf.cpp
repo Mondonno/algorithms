@@ -1,6 +1,11 @@
+#include <vector>
+
+using namespace std;
+
 int N;
-vector<bool> odwiedzone(N, 0);
-vector<int> graf(N, 0);
+
+vector<bool> odwiedzone;
+vector<vector<int>> graf;
 
 void dfs(int start){
     int i;

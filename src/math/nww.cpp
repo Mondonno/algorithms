@@ -13,3 +13,13 @@ int nww(int a, int b)
 
     return (a * b) / b1;
 }
+
+/*
+Alternatywa (ze wzgledu na zasady caly kod jest poprawny wyzej bez potrzeby dolaczania NWD)
+
+a i b to dwie liczby dla ktorych mamy znalezc najwieksza wspolna wielokrotnosc
+
+int nww(int a, int b){
+    return (a * b) / nwd(a, b);
+}
+*/

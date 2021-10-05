@@ -1,3 +1,8 @@
+/*
+ * Definicja drzewa jest taka że mamy drzewo binarne ktore przechowuje dane wierzcholkow.
+ * W tym typie drzewa bierzemy sumę z przedzialu (-przedzial)
+ * */
+
 const int BASE = 1 << 17;
 long long Tree[BASE << 1];
 

@@ -1,3 +1,5 @@
+// sumy prefiksowe dla grida
+
 int** wypelnij(int a1, int b1, int a2, int b2, int** sumy) {
     for(int i = a1 + 1; i <= b1 - 1; i++) {
        for(int j = a2 + 1; j <= b2 - 1; j++) {
