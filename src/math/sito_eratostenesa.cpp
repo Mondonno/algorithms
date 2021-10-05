@@ -5,7 +5,7 @@ using namespace std;
 // algorytm określajacy pierwszosc liczby do jakiegos N
 
 vector<int> sito(int n) {
-   int liczby_pierwsze[n + 1];
+   vector<int> liczby_pierwsze(n+1);
 
    liczby_pierwsze[0] = 1;
    liczby_pierwsze[1] = 1;
