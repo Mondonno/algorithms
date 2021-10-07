@@ -1,22 +1,11 @@
 ## Sizes
-There are listed sizes in **BITS** of each type in C++ standard
-
-
-| Type          | C99 Minimum   | Windows 32bit
-| --------------|---------------|---------------
-| char          | 8             | 8
-| short         | 16            | 16
-| int           | 16            | 32
-| long          | 32            | 32
-| long long     | 64            | 64
-
-Calculated to **BYTES** (1024 bytes = 1 kilobyte (kb))
+There are listed sizes in **BYTES** of each type in C++ standard
 
 | Type          | C99 Minimum   | Windows 32bit
 | --------------|---------------|---------------
 | char          | 1             | 1
 | short         | 2             | 2
-| int           | 2             | 4
+| int           | 4             | 4
 | long          | 4             | 4
 | long long     | 8             | 8
 

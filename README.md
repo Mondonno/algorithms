@@ -45,7 +45,7 @@ List of currently implemented:
 
 - **Sparses**
     - [x] Range Minimum Queries `O(n log n)` `O(1)`
-    - [x] Range Sum Queries (is simmilar to prefix sums)
+    - [x] Range Sum Queries (is simmilar to prefix sums but much slower)
 
 - **Other**
     - [x] Caterpillar algorithm `O(2 * n)`
