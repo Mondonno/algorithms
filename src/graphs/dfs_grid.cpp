@@ -1,3 +1,6 @@
+// Algorytm DFS (Deapth First Search) dla siatki (grida)
+// Zlozonosc: O(n * m)
+
 #include <vector>
 
 using namespace std;
@@ -18,10 +21,9 @@ int m = 1e6;
 vector<vector<bool>> odwiedzone;
 
 void dfs_grid(int v, int w){
-    int i;
     odwiedzone[v][w] = true;
 
-    for(i = 0; i < zmianyPolozen; i++){
+    for(int i = 0; i < zmianyPolozen; i++){
         pair <int, int> sasiad = make_pair(v + dx[i], w + dy[i]);
         if(1 <=sasiad.first && sasiad.first <=n &&
             1 <=sasiad.second && sasiad.second <=m ) {

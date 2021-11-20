@@ -1,3 +1,9 @@
+/* Ten typ drzewa polega na ustawieniu wartości w punkcie a następnie
+ * Odpytywaniu z przedzialu
+ *
+ * Zlozonosc: O(log2(n))
+ * */
+
 const int BASE = 1 << 17;
 long long Tree[BASE << 1];
 

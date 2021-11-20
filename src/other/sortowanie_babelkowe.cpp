@@ -1,3 +1,6 @@
+// Sortowanie tablicy metodą bąbelkową
+// Zlozonosc: O(n^2)
+
 #include <vector>
 
 using namespace std;

@@ -1,3 +1,6 @@
+// Algorytm DFS (Deapth First Search) dla grafu
+// Zlozonosc: O(n+m)
+
 #include <vector>
 
 using namespace std;
@@ -8,10 +11,9 @@ vector<bool> odwiedzone;
 vector<vector<int>> graf;
 
 void dfs(int start){
-    int i;
     odwiedzone[start] = true;
 
-    for(i = 0; i < graf[start].size(); i++){
+    for(int i = 0; i < graf[start].size(); i++){
         if(odwiedzone[graf[start][i]] == false){
             dfs(graf[start][i]);
         }

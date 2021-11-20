@@ -1,6 +1,8 @@
 /*
  * Definicja drzewa jest taka że mamy drzewo binarne ktore przechowuje dane wierzcholkow.
  * W tym typie drzewa bierzemy sumę z przedzialu (-przedzial)
+ *
+ * Zlozonosc: O(log2(n))
  * */
 
 const int BASE = 1 << 17;

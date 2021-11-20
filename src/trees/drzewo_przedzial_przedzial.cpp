@@ -1,6 +1,8 @@
 /*
  * Definicja drzewa jest taka że mamy drzewo binarne ktore przechowuje dane wierzcholkow, jesli wierzcholki są koło siebie znaczy to że przedziały się stykają
  * W tym typie drzewa bierzemy sumę z sumy przedziałów (przedzial-przedzial)
+ *
+ * Zlozonosc: O(log2(n))
  * */
 
 constexpr int base = 1 << 17;

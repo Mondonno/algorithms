@@ -1,3 +1,5 @@
+// Zpotymalizowane potęgowanie liczb (tzn. a^b)
+
 int potega(int a, int n)
 {
     if (n == 1)

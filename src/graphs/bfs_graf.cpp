@@ -1,3 +1,6 @@
+// Algorytm BFS (Breadth First Search) dla grafu
+// Zlozonosc: O(n+m)
+
 #include <queue>
 #include <vector>
 

@@ -1,3 +1,6 @@
+// Algorytm szukający na ciągu, którego operacje przypominają ruchy gąsienicy
+// Zlozonosc: O(2 * n)
+
 #include <vector>
 
 int gasienica(std::vector<int> A, int n, int K)

@@ -1,4 +1,8 @@
-// referencja do: https://cp-algorithms.com/data_structures/sparse-table.html
+// Algorytm który pozwala znaleźć minimum w O(1) dla stałego ciągu
+// Zlozonosc:
+//     - Wypelnianie: O(n log n)
+//     - Odpowiadanie: O(1)
+// Referencja do: https://cp-algorithms.com/data_structures/sparse-table.html
 
 #include <iostream>
 #include <algorithm>
@@ -12,7 +16,7 @@ const int K = 25; // przykladowa wartosc K dla przedzialu <= 10^7 (dziesiec do p
 int log[MAXN];
 int st[MAXN][K + 1];
 
-void wypelnij(vector<int> array, int N) { // wypelnia 
+void wypelnij(vector<int> array, int N) {
     int log[MAXN+1];
     log[1] = 0;
     for (int i = 2; i <= MAXN; i++)

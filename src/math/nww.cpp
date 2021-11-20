@@ -1,4 +1,6 @@
-// podstawowy algorytm euklidesa
+// Podstawowy algorytm euklidesa
+// Wyszukuje Najmniejszą Wspólną Wielkrotność dwóch liczb (a i b)
+// Zlozonosc: O(log2(max(n, k)))
 
 int nww(int a, int b)
 {

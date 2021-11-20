@@ -1,8 +1,12 @@
+// Sumy prefiksowe na przedzialach ktore sie moga nakladać
+// Zlozonosc:
+//      - Wyplenienie: O(n)
+//      - Odpytanie: O(b - a)
+
+
 #include <vector>
 
 using namespace std;
-
-// sumy prefiksowe na przedzialach ktore sie moga nakladac
 
 int zaladuj(int a, int b,int c, vector<int> sumy) // a - poczatek przedzialu, b - koniec przedzialu, c - wartosc na przedzial
 {

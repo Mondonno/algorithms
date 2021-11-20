@@ -1,9 +1,9 @@
+// Algorytm określajacy pierwszosc liczby do jakiegos N (znany jako sito erastotenesa)
+// wszystkie indeksy okreslone jako falsz sa liczbami pierwszymi
+
 #include <vector>
 
 using namespace std;
-
-// algorytm określajacy pierwszosc liczby do jakiegos N
-// wszystkie indeksy okreslone jako falsz sa liczbami pierwszymi
 
 vector<bool> sito(int n)
 {

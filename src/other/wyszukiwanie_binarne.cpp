@@ -1,3 +1,6 @@
+// Wyszukiwanie Binarne (przez połowienie)
+// Zlozonosc: O(log2(n))
+
 #include <vector>
 
 using namespace std;

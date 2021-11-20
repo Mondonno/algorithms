@@ -1,3 +1,6 @@
+// Algorytm BFS (Breadth First Search) dla siatki (grida)
+// Zlozonosc: O(n * m)
+
 #include <vector>
 #include <queue>
 
