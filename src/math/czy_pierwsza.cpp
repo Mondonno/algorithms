@@ -1,5 +1,9 @@
-// Określa pierwszość podanej liczby (tzn. czy jest podzielna tylko przez siebie i 1)
-// Zlozonosc: O(sqrt(n))
+/*
+ Określa pierwszość podanej liczby (tzn. czy jest podzielna tylko przez siebie i 1)
+ Wykorzystuje metodą z innego algorytmu (szybkie_dzielniki.cpp)
+
+ Zlozonosc: O(sqrt(n))
+*/
 
 #include <cmath>
 

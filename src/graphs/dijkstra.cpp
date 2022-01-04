@@ -1,3 +1,5 @@
+// todo: dodac opis oraz zlozonosc czasową
+
 #include <queue>
 #include <vector>
 
@@ -21,7 +23,7 @@ vector<int> dijkstra(vector<pair<int, long long>> graf, int wielkoscGrafu) {
 
       // editor bugs again?
       // need some bindings?
-      for(pair<int, long long>& i : graf[topElement]) {
+      for(auto& i : graf[topElement]) {
          if(odleglosci[i.first] > odleglosci[topElement] + i.second) {
             odleglosci[i.first] = odleglosci[topElement] + i.second;
 	         kolejka.push(make_pair(-odleglosci[i.first], i.first));

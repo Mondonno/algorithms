@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e978e06f-9820-4112-9409-6ca00d2c9664" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/bfs_graf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/bfs_graf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/bfs_grid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/bfs_grid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/dfs_graf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/dfs_graf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/dfs_grid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/dfs_grid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/dijkstra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/dijkstra.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/chlopi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/chlopi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/czy_pierwsza.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/czy_pierwsza.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/euklides_rozszerzony.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/euklides_rozszerzony.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/ile_dzielnikow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/ile_dzielnikow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/nwd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/nwd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/nww.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/nww.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/sito_eratostenesa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/sito_eratostenesa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/szybkie_dzielniki.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/szybkie_dzielniki.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/szybkie_potegowanie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/szybkie_potegowanie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/gasienica.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/gasienica.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/merge_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/merge_sort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/sortowanie_babelkowe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/sortowanie_babelkowe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/wyszukiwanie_binarne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/wyszukiwanie_binarne.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparses/min_przedzial_sprase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sparses/min_przedzial_sprase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparses/sum_przedzial_sprase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sparses/sum_przedzial_sprase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sumes/sumy_pref_2d.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sumes/sumy_pref_2d.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sumes/sumy_prefiksowe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sumes/sumy_prefiksowe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sumes/sumy_prefiksowe_naklad.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/drzewo_przedzial_punkt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/drzewo_przedzial_punkt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/drzewo_punkt_przedzial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/drzewo_punkt_przedzial.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22qAN2ZbU2WwCpObgMadvb5Mdhn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e978e06f-9820-4112-9409-6ca00d2c9664" name="Changes" comment="" />
+      <created>1640554705406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640554705406</updated>
+      <workItem from="1640554717305" duration="124000" />
+      <workItem from="1640687802577" duration="86000" />
+    </task>
+    <servers />
+  </component>
+</project>

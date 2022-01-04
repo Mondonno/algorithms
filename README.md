@@ -1,5 +1,5 @@
 ## Algorithms
-Popular algorithms, mostly everyone known and some created on my own
+Algorithms stuff created on my own, grabbed from some resources and all of them are putted here.
 
 ## How?
 

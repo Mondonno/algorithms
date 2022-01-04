@@ -1,7 +1,9 @@
-// Euklides rozszerzony zaimplementowany rekurencjynie
 // todo: dodanie euklidesa rozszerzonego iteracyjnie
 
-// poprzedni y
+/*
+ Euklides rozszerzony zaimplementowany rekurencjynie
+*/
+
 int yp;
 
 int x = 1;

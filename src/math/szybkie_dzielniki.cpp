@@ -1,5 +1,7 @@
-// Algorytm szukający dzielników sprytną metodą (tzn. od 1 do sqrt(n))
-// Zlozonosc: O(sqrt(n))
+/*
+ Algorytm szukający dzielników sprytną metodą (tzn. od 1 do sqrt(n))
+ Zlozonosc: O(sqrt(n))
+*/
 
 #include <iostream>
 #include <vector>

@@ -3,6 +3,11 @@
 using namespace std;
 
 // sumy prefiksowe dla grida
+// czyli dla plytki (ciagu 2d)
+// np.
+// 1 1 1 1
+// 1 1 1 1
+// 1 1 1 1
 
 vector<vector<int>> wypelnij(int a1, int b1, int a2, int b2, vector<vector<int>> sumy) {
     for(int i = a1 + 1; i <= b1 - 1; i++) {

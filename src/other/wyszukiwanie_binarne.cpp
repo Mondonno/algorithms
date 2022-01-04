@@ -1,5 +1,10 @@
-// Wyszukiwanie Binarne (przez połowienie)
-// Zlozonosc: O(log2(n))
+/*
+ Wyszukiwanie binarne (ang. binary search).
+ Działa on metodą połowienia ciągu az do uzyskania wyszukiwaniej wartości,
+ aczkolwiek ciąg musi być posortowany (od najmniejszego do największego).
+
+ Zlozonosc: O(log2(n))
+*/
 
 #include <vector>
 

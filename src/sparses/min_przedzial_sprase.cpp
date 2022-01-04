@@ -1,8 +1,11 @@
-// Algorytm który pozwala znaleźć minimum w O(1) dla stałego ciągu
-// Zlozonosc:
-//     - Wypelnianie: O(n log n)
-//     - Odpowiadanie: O(1)
-// Referencja do: https://cp-algorithms.com/data_structures/sparse-table.html
+/*
+ Algorytm który pozwala znaleźć minimum w O(1) dla stałego ciągu
+ Zlozonosc:
+     - Wypelnianie: O(n log n)
+     - Odpowiadanie: O(1)
+ Referencja do: https://cp-algorithms.com/data_structures/sparse-table.html
+*/
+
 
 #include <iostream>
 #include <algorithm>

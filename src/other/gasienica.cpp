@@ -1,5 +1,9 @@
-// Algorytm szukający na ciągu, którego operacje przypominają ruchy gąsienicy
-// Zlozonosc: O(2 * n)
+/*
+ Algorytm szukający na ciągu, pewnego podciągu,
+ którego operacje przypominają ruchy gąsienicy
+ 
+ Zlozonosc: O(2 * n)
+*/
 
 #include <vector>
 

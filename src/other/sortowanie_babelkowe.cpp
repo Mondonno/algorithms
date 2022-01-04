@@ -1,5 +1,9 @@
-// Sortowanie tablicy metodą bąbelkową
-// Zlozonosc: O(n^2)
+/*
+ Sortowanie tablicy metodą bąbelkową.
+ Działa on zgodnie z jego nazwą
+
+ Zlozonosc: O(n^2)
+*/
 
 #include <vector>
 

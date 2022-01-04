@@ -1,5 +1,7 @@
-// Algorytm DFS (Deapth First Search) dla grafu
-// Zlozonosc: O(n+m)
+/*
+ Algorytm DFS (Deapth First Search) dla grafu
+ Zlozonosc: O(n+m)
+*/
 
 #include <vector>
 

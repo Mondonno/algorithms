@@ -1,6 +1,9 @@
-// Podstawowy algorytm euklidesa
-// Wyszukuje Największy Wspólny Dzielnik dla liczb a i b
-// Zlozonosc: O(log2(max(n, k)))
+/*
+ Podstawowy algorytm euklidesa
+ Wyszukuje Największy Wspólny Dzielnik dla liczb a i b
+
+ Zlozonosc: O(log2(max(n, k)))
+*/
 
 int nwd(int a, int b) {
    int x = 0;

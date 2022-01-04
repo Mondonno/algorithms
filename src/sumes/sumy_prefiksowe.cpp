@@ -1,10 +1,13 @@
+/*
+ Algorytm sum prefiksowych czyli sum na przedziale
+ Zloznosc:
+    - Odpowiedanie: O(1)
+    - Wczytywanie: O(n)
+*/
+
 #include <vector>
 
 using namespace std;
-
-// sumy prefiksowe czyli sumy na przedziale
-// odpowiedanie: O(1)
-// wczytywanie: O(n)
 
 vector<int> wczytaj(vector<int> elementy) {
     vector<int> sumy_prefiksowe(n);

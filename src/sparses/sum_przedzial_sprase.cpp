@@ -1,9 +1,14 @@
-#include <vector>
+// UWAGA!
+// To rozwiązanie jest wolniejsze niz sumy prefiksowe opisane takze w tym zbiorze algorytmow.
 
-// UWAGA!!! UWAGA!!! UWAGA!!!
-// WOLNIEJSZE NIZ SUMY PREFIKSOWE
-// to rozwiązane na branie sumy z przedizalu dziala kilkukrotnie dluzej od sum prefiksowych ktore dzialaja w czasie O(1)
-// tablice sparse to lepsze rozwiazanie na min z przedzialu poniewaz dziala to w czasie stalym
+/*
+ (Ten) algorytm to rozwiązane na branie sumy z przedizalu dziala kilkukrotnie dluzej od sum prefiksowych ktore dzialaja w czasie O(1)
+ tablice sparse to lepsze rozwiazanie na min z przedzialu poniewaz dziala to w czasie stalym
+*/
+
+// todo: dodac zloznosc czasowa
+
+#include <vector>
 
 const int MAXN = 1e9; // przykladowa wartosc
 const int K = 25; // przykladowa wartosc K dla przedzialu <= 10^7 (dziesiec do potegi 7)

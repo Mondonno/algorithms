@@ -1,5 +1,9 @@
-// Algorytm określajacy pierwszosc liczby do jakiegos N (znany jako sito erastotenesa)
-// wszystkie indeksy okreslone jako falsz sa liczbami pierwszymi
+/*
+ Algorytm określajacy pierwszosc liczby do jakiegos N (znany jako sito erastotenesa)
+ wszystkie indeksy okreslone jako falsz sa liczbami pierwszymi
+
+ Zlozonosc: O(n log2(log2(n)))
+*/
 
 #include <vector>
 

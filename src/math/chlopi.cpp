@@ -1,4 +1,9 @@
-// metoda mnozenia metoda chlopow rosyjskich
+// todo: dodac zlozonosc czasową
+
+/*
+ Algorytm mnozenia metodą chlopow rosyjskich.
+ Jest on tu dodany jako ciekawostka, ale nie jako rzecz ktorą mozna uzyc w praktyce.
+*/
 
 int mnozenieChlopskie(int a, int b) {
     if (b == 0)

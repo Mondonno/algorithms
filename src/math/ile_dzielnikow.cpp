@@ -1,6 +1,9 @@
-// Podaje ilość dzielników liczby
-// Wykorzystuje metodą z innego algorytmu (szybkie_dzielniki.cpp)
-// Zlozonosc: O(sqrt(n))
+/*
+ Algorytm ktory podaje ilość dzielników liczby
+ Wykorzystuje metodą z innego algorytmu (szybkie_dzielniki.cpp)
+ 
+ Zlozonosc: O(sqrt(n))
+*/
 
 #include <iostream>
 #include <cmath> // niepotrzbene, blibliotek STL zapewnia sqrt

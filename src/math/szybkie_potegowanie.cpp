@@ -1,4 +1,8 @@
-// Zpotymalizowane potęgowanie liczb (tzn. a^b)
+// todo: Dodanie zlozonosci czasowej
+
+/*
+ Zpotymalizowane potęgowanie liczb (tzn. a^b) 
+*/
 
 int potega(int a, int n)
 {
