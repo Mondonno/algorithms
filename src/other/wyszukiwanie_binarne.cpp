@@ -10,13 +10,15 @@
 
 using namespace std;
 
-int binSearch(int poczatek, int koniec, int szukane, vector<int> tablica) {
-    while(poczatek <= koniec){
-        int srodek = (poczatek + koniec) / 2;
+int binarySearch(int value, int start, int end, vector<int> array) {
+  while (start < end) {
+    int mid = (start + end) / 2;
 
-        if(tablica[srodek] < szukane) {
-            poczatek = srodek + 1;
-        }else
-            koniec = srodek - 1;
-    }
+    if (array[mid] < value)
+      start = mid + 1;
+    else
+      end = mid - 1;
+  }
+
+  return start;
 }
